@@ -1,0 +1,97 @@
+Nombres: Jason
+Apellidos: Lynch
+Con notas: 
+10-M
+80-S
+80-S
+95-S
+
+Promedio - 66,250000
+Número de notas arriba del promedio: 3
+
+
+Nombres: Jonathan
+Apellidos: George
+Con notas: 
+40-MB
+80-S
+80-S
+45-MB
+
+Promedio - 61,250000
+Número de notas arriba del promedio: 2
+
+
+Nombres: Kristen
+Apellidos: Lang
+Con notas: 
+80-S
+10-M
+20-M
+55-S
+
+Promedio - 41,250000
+Número de notas arriba del promedio: 1
+
+
+Nombres: Robin
+Apellidos: Cochran
+Con notas: 
+70-S
+30-MB
+20-M
+65-S
+
+Promedio - 46,250000
+Número de notas arriba del promedio: 2
+
+
+Nombres: Michelle
+Apellidos: Young
+Con notas: 
+60-S
+50-MB
+70-S
+75-S
+
+Promedio - 63,750000
+Número de notas arriba del promedio: 3
+
+
+Nombres: Emily
+Apellidos: Fletcher
+Con notas: 
+50-MB
+70-S
+30-MB
+85-S
+
+Promedio - 58,750000
+Número de notas arriba del promedio: 2
+
+
+Nombres: Noah
+Apellidos: Adkins
+Con notas: 
+40-MB
+80-S
+40-MB
+45-MB
+
+Promedio - 51,250000
+Número de notas arriba del promedio: 1
+
+
+Nombres: Daniel
+Apellidos: Harris
+Con notas: 
+30-MB
+90-S
+50-MB
+95-S
+
+Promedio - 66,250000
+Número de notas arriba del promedio: 2
+
+
+
