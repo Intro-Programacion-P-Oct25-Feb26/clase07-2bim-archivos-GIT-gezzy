@@ -22,6 +22,8 @@ public class LeerArchivoTexto {
             while (entrada.hasNext()) {
                 String linea = entrada.nextLine();
                 List<String> lista = Arrays.asList(linea.split("\\|"));
+                // Al tratarse de un caracter especial de java, el pipe "|"
+                // necesita ser escapado usando un soble backslash "\\"
                 ArrayList<String> linea_partes = new ArrayList<>(lista);
                 
                 
