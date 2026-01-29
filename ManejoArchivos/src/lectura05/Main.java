@@ -13,5 +13,4 @@ public class Main {
         // Estadistica.obtenerPromedio();
         Estadistica.obtenerPromedioException();
     }
-    
 }

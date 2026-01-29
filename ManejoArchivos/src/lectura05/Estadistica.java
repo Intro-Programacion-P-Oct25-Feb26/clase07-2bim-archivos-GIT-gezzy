@@ -39,30 +39,32 @@ public class Estadistica {
             System.exit(1);
         }
     }
-        public static void obtenerPromedioException() {
+
+    public static void obtenerPromedioException() {
         try {
             Scanner lector = new Scanner(new File("data/sucursales.txt"));
             double suma = 0;
             int contadorEmpleados = 0;
+            double dato = 0;
             double promedio;
-            lector.nextLine();
             while (lector.hasNext()) {
                 String registro = lector.nextLine();
                 List<String> datos = Arrays.asList(registro.split("\\|"));
                 List<String> datosRegistro = new ArrayList<>(datos);
-                if (datosRegistro.get(2).equals("empleados")) {
-                    throw new Exception("Error de Conversion");
+                try {
+                    dato = Double.parseDouble(datosRegistro.get(2));
+                } catch (Exception NumberFormatException) {
+                    System.out.printf("Ocurrió una excepción %s\n"
+                            + "El sistema no puede convertir (%s) de tipo String a Double\n",
+                            NumberFormatException, datosRegistro.get(2));
                 }
-                suma = suma + Double.parseDouble(datosRegistro.get(2));
+                suma = suma + dato;
                 contadorEmpleados = contadorEmpleados + 1;
             }
             promedio = suma / contadorEmpleados;
             System.out.printf("El promedio de empleados por empresa "
                     + "es de: %.2f empleados\n", promedio);
             lector.close();
-        } catch (NumberFormatException e) {
-            System.out.printf("(NumberFormatException) Ocurrió una "
-                    + "excepción %s\n", e);
         } catch (Exception e) {
             System.err.println("Error al leer del archivo.");
             System.exit(1);
